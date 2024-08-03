@@ -94,7 +94,7 @@ public class FitPeoAutomation {
 				By.xpath("//p[@class='MuiTypography-root MuiTypography-body1 inter css-hocx5c']")));
 		String totalReimbursementText = totalReimbursementHeader.getText().trim();
 
-		// Debugging 
+		// Debugging
 		System.out.println("Total reimbursement text: " + totalReimbursementText);
 
 		Assert.assertTrue(totalReimbursementText.contains("$95760"),
