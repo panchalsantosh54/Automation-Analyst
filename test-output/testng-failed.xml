@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fitpeotest.FitPeoAutomation">
+      <class name="com.fitpeotest.FitPeoTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testRevenueCalculator"/>
           <include name="setUp"/>
+          <include name="testRevenueCalculator"/>
         </methods>
-      </class> <!-- com.fitpeotest.FitPeoAutomation -->
+      </class> <!-- com.fitpeotest.FitPeoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

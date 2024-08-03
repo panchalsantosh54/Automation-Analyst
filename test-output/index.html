@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Panchal\AppData\Local\Temp\testng-eclipse--1580520694\testng-customsuite.xml</span>
+                    <span>C:\Users\Panchal\AppData\Local\Temp\testng-eclipse--1802077905\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.fitpeotest.FitPeoAutomation" class="method navigator-link" hash-for-method="testRevenueCalculator">testRevenueCalculator</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.fitpeotest.FitPeoTest" class="method navigator-link" hash-for-method="testRevenueCalculator">testRevenueCalculator</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,7 +121,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.fitpeotest.FitPeoAutomation</span>
+              <span class="class-name">com.fitpeotest.FitPeoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,13 +129,14 @@
                   <a name="testRevenueCalculator">
                   </a> <!-- testRevenueCalculator -->
                   <span class="method-name">testRevenueCalculator</span>
-                  <div class="stack-trace">java.lang.AssertionError: Failed to set the slider to 820. expected [820] but found [200]
+                  <div class="stack-trace">java.lang.AssertionError: expected [820] but found [821]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
-	at com.fitpeotest.FitPeoAutomation.testRevenueCalculator(FitPeoAutomation.java:64)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.fitpeotest.FitPeoTest.testRevenueCalculator(FitPeoTest.java:81)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -171,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Panchal\AppData\Local\Temp\testng-eclipse--1580520694\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Panchal\AppData\Local\Temp\testng-eclipse--1802077905\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -180,7 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.fitpeotest.FitPeoAutomation&quot;/&gt;
+      &lt;class name=&quot;com.fitpeotest.FitPeoTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -223,13 +224,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testRevenueCalculator')
-data.setCell(0, 2, 'com.fitpeotest.FitPeoAutomation')
-data.setCell(0, 3, 4224);
+data.setCell(0, 2, 'com.fitpeotest.FitPeoTest')
+data.setCell(0, 3, 7297);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -255,7 +256,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.fitpeotest.FitPeoAutomation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.fitpeotest.FitPeoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -264,11 +265,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testRevenueCalculator</span>
-                <span class="method-start">3486 ms</span>
+                <span class="method-start">5766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7724 ms</span>
+                <span class="method-start">13076 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
