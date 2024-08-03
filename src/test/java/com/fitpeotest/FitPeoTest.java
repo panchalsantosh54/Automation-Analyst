@@ -106,4 +106,10 @@ public class FitPeoTest {
 			driver.quit();
 		}
 	}
+	
+	/*
+	 * Note: After navigate to the revenue calculator link then scroll down after 
+	 * click on slider manually is working as not expected but click and 
+	 * hold slider using keyboard right side button is working fine.
+	 */
 }
